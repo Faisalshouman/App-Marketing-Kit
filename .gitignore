@@ -1,0 +1,28 @@
+# API secrets and personal data
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+secrets/
+data/private/
+contacts/
+leads/*.csv
+leads/*.json
+# raw captured media and render intermediates (use external storage for large files)
+media/raw/
+media/rendered/
+content/exports/
+*.mp4
+*.mov
+*.wav
+*.mp3
+# local operational debris
+node_modules/
+.DS_Store
+Thumbs.db
+.cache/
+.tmp/
+coverage/
+*.bundle

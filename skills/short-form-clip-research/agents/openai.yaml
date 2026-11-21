@@ -1,0 +1,8 @@
+interface:
+  display_name: "Short-Form Clip Research"
+  short_description: "Rank clip ideas and diagnose Shorts performance"
+  default_prompt: "Use $short-form-clip-research to rank these candidates, write timestamped cut notes, and plan a test."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true

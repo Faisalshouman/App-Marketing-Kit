@@ -1,0 +1,12 @@
+{
+  "status": "template",
+  "assets": [],
+  "assetFields": [
+    "id",
+    "path",
+    "source",
+    "rights",
+    "approvedVariant",
+    "reviewedAt"
+  ]
+}

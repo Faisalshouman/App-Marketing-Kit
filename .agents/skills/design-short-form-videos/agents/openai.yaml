@@ -1,0 +1,15 @@
+interface:
+  display_name: Design Short-Form Videos
+  short_description: Script, storyboard, and review looping short videos
+  default_prompt: Use $design-short-form-videos to turn this verified idea or clip
+    into a vertical video with a clear first frame, a visible payoff, and a replayable
+    edit.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,10 @@
+{
+  "id": "first-value-demo",
+  "title": "First-value demo",
+  "audience": "Define from app profile",
+  "goal": "first-value",
+  "status": "draft",
+  "brief": "campaigns/first-value-demo/brief.md",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "exampleSeed": true
+}

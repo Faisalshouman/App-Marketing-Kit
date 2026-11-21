@@ -1,0 +1,23 @@
+{
+  "status": "template",
+  "appName": null,
+  "colors": {
+    "surface": null,
+    "text": null,
+    "muted": null,
+    "primary": null,
+    "onPrimary": null,
+    "accent": null,
+    "border": null
+  },
+  "typography": {
+    "heading": null,
+    "body": null
+  },
+  "logoVariants": {
+    "light": null,
+    "dark": null,
+    "icon": null
+  },
+  "approvedBy": null
+}

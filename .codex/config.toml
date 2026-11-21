@@ -1,0 +1,58 @@
+# Generated project-local marketing agents. No global configuration changes.
+[features]
+multi_agent = true
+
+[agents]
+max_threads = 3
+
+[agents."head-of-marketing"]
+description = "Own the marketing strategy, prioritize the operating backlog, coordinate specialists and deliver trustworthy weekly decisions to the founder."
+config_file = "agents/head-of-marketing.toml"
+
+[agents."product-marketer"]
+description = "Make clear who Philocoursa is for, what problems it solves, and which differentiators are supported by real product evidence."
+config_file = "agents/product-marketer.toml"
+
+[agents."growth-ops"]
+description = "Maintain operational truth: acquisition funnel definitions, campaign attribution, experiments, reporting and task hygiene."
+config_file = "agents/growth-ops.toml"
+
+[agents."brand-lead"]
+description = "Protect Philocoursa’s authentic visual identity across the website, creative assets and official channels."
+config_file = "agents/brand-lead.toml"
+
+[agents."content-strategist"]
+description = "Choose which useful stories to tell, for whom, where, and what behavior each piece should encourage."
+config_file = "agents/content-strategist.toml"
+
+[agents."marketing-copywriter"]
+description = "Write persuasive, truthful social copy, video scripts, promotional headlines and creator briefs."
+config_file = "agents/marketing-copywriter.toml"
+
+[agents."graphic-designer"]
+description = "Create complete static promotional materials with consistent brand and source-traceable imagery."
+config_file = "agents/graphic-designer.toml"
+
+[agents."video-producer"]
+description = "Own short-form marketing video end-to-end from storyboard and real app capture to final edited exports."
+config_file = "agents/video-producer.toml"
+
+[agents."media-pipeline-engineer"]
+description = "Build, test and maintain reusable media-processing tools and reliable, low-storage jobs for human-selected, authorized recordings."
+config_file = "agents/media-pipeline-engineer.toml"
+
+[agents."social-community-manager"]
+description = "Adapt and distribute approved content across authorized online channels and handle genuine community engagement."
+config_file = "agents/social-community-manager.toml"
+
+[agents."partnerships-outreach"]
+description = "Develop trust-based online partnerships with educators, creators, professional communities, newsletters and podcast hosts."
+config_file = "agents/partnerships-outreach.toml"
+
+[agents."website-seo"]
+description = "Improve public website discoverability and clarity without assuming permission to change production code."
+config_file = "agents/website-seo.toml"
+
+[agents."lifecycle-crm"]
+description = "Design consent-aware educational email journeys, segment leads appropriately and help registered users reach their first useful outcome."
+config_file = "agents/lifecycle-crm.toml"

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "head-of-marketing",
+    "title": "Head of Marketing",
+    "department": "Leadership",
+    "description": "Own the marketing strategy, prioritize the operating backlog, coordinate specialists and deliver trustworthy weekly decisions to the founder."
+  },
+  {
+    "id": "product-marketer",
+    "title": "Product Marketing & Research Specialist",
+    "department": "Strategy & Research",
+    "description": "Make clear who Philocoursa is for, what problems it solves, and which differentiators are supported by real product evidence."
+  },
+  {
+    "id": "growth-ops",
+    "title": "Growth Analytics & Marketing Operations Manager",
+    "department": "Strategy & Research",
+    "description": "Maintain operational truth: acquisition funnel definitions, campaign attribution, experiments, reporting and task hygiene."
+  },
+  {
+    "id": "brand-lead",
+    "title": "Brand Identity & Creative Lead",
+    "department": "Creative Studio",
+    "description": "Protect Philocoursa’s authentic visual identity across the website, creative assets and official channels."
+  },
+  {
+    "id": "content-strategist",
+    "title": "Content Strategist & Ideation Specialist",
+    "department": "Creative Studio",
+    "description": "Choose which useful stories to tell, for whom, where, and what behavior each piece should encourage."
+  },
+  {
+    "id": "marketing-copywriter",
+    "title": "Marketing Copywriter & Scriptwriter",
+    "department": "Creative Studio",
+    "description": "Write persuasive, truthful social copy, video scripts, promotional headlines and creator briefs."
+  },
+  {
+    "id": "graphic-designer",
+    "title": "Graphic & AI Visual Designer",
+    "department": "Creative Studio",
+    "description": "Create complete static promotional materials with consistent brand and source-traceable imagery."
+  },
+  {
+    "id": "video-producer",
+    "title": "Video Producer & Editor",
+    "department": "Creative Studio",
+    "description": "Own short-form marketing video end-to-end from storyboard and real app capture to final edited exports."
+  },
+  {
+    "id": "media-pipeline-engineer",
+    "title": "Media Pipeline Engineer",
+    "department": "Creative Studio",
+    "description": "Build, test and maintain reusable media-processing tools and reliable, low-storage jobs for human-selected, authorized recordings."
+  },
+  {
+    "id": "social-community-manager",
+    "title": "Social Media & Community Manager",
+    "department": "Distribution & Acquisition",
+    "description": "Adapt and distribute approved content across authorized online channels and handle genuine community engagement."
+  },
+  {
+    "id": "partnerships-outreach",
+    "title": "Partnerships & Outreach Manager",
+    "department": "Distribution & Acquisition",
+    "description": "Develop trust-based online partnerships with educators, creators, professional communities, newsletters and podcast hosts."
+  },
+  {
+    "id": "website-seo",
+    "title": "Website Copywriter, SEO & Conversion Specialist",
+    "department": "Conversion & Retention",
+    "description": "Improve public website discoverability and clarity without assuming permission to change production code."
+  },
+  {
+    "id": "lifecycle-crm",
+    "title": "Lifecycle Email & CRM Manager",
+    "department": "Conversion & Retention",
+    "description": "Design consent-aware educational email journeys, segment leads appropriately and help registered users reach their first useful outcome."
+  }
+]

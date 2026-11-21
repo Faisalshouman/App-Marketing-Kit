@@ -1,0 +1,450 @@
+{
+  "formatVersion": 1,
+  "workspace": "App Marketing Kit and Creator Clipping Studio",
+  "skillPacks": [
+    {
+      "id": "hyperframes-skills",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "commit": "592a9feff9aacce8c25246b04aa4fda54bea294d",
+      "destination": "heygen-hyperframes-skills",
+      "skillRoot": "skills",
+      "count": 9,
+      "mode": "skill-folders"
+    },
+    {
+      "id": "vyral-content",
+      "repo": "https://github.com/vyralcontent/content-skills",
+      "commit": "349e495d97029a3e6303a7510e3f39c73f36d8fe",
+      "destination": "vyral-content-skills",
+      "skillRoot": "skills",
+      "count": 7,
+      "mode": "skill-folders"
+    },
+    {
+      "id": "marketing",
+      "repo": "https://github.com/coreyhaines31/marketingskills",
+      "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+      "destination": "corey-marketingskills",
+      "skillRoot": "skills",
+      "count": 53,
+      "mode": "skill-folders"
+    },
+    {
+      "id": "social",
+      "repo": "https://github.com/social-media-skills/skills",
+      "commit": "f28cef2b7067ec64e79c9d85421c022c06659e03",
+      "destination": "social-media-skills",
+      "skillRoot": "skills",
+      "count": 106,
+      "mode": "skill-folders"
+    },
+    {
+      "id": "krea",
+      "repo": "https://github.com/krea-ai/skills",
+      "commit": "9239bb449a8acefd5effef73a548b7322b5d1f10",
+      "destination": "krea-skills",
+      "skillRoot": ".",
+      "count": 4,
+      "mode": "skill-folders"
+    },
+    {
+      "id": "openai",
+      "repo": "https://github.com/openai/skills",
+      "commit": "49f948faa9258a0c61caceaf225e179651397431",
+      "destination": "openai-catalog",
+      "skillRoot": "skills/.curated",
+      "count": 40,
+      "extraPaths": [
+        "skills/.system/plugin-creator"
+      ],
+      "mode": "skill-folders"
+    },
+    {
+      "id": "scrapecreators",
+      "repo": "https://github.com/ScrapeCreators/social-media-research-skills",
+      "commit": "64ba7b4dea71e130d2712ffb6c1c1024b3b7c4b2",
+      "destination": "scrapecreators-social-media-research",
+      "skillRoot": "skills",
+      "count": 13,
+      "mode": "skill-folders"
+    },
+    {
+      "id": "ffmpeg-skill",
+      "repo": "https://github.com/kajisho5/ffmpeg-skill",
+      "commit": "216124e596b4c7e8ae8943f3a0046594708995cc",
+      "destination": "ffmpeg-skill",
+      "skillRoot": ".",
+      "count": 1,
+      "mode": "ffmpeg-skill-runtime",
+      "runtimePaths": [
+        "SKILL.md",
+        "package.json",
+        "LICENSE",
+        "scripts",
+        "templates",
+        "mcp",
+        "references",
+        "docs/contract.md"
+      ]
+    },
+    {
+      "id": "remotion-skills",
+      "repo": "https://github.com/remotion-dev/skills",
+      "commit": "6f55706d1069e512430582ad86e4e57dc07afe1b",
+      "destination": "remotion-dev-skills",
+      "skillRoot": "skills",
+      "count": 13,
+      "mode": "skill-folders"
+    },
+    {
+      "id": "video-to-shorts",
+      "repo": "https://github.com/social-media-skills/video-to-shorts-skill",
+      "commit": "2e20fb008b584f3927798f36f580401d75318600",
+      "destination": "video-to-shorts-pack",
+      "skillRoot": "skills",
+      "count": 1,
+      "mode": "skill-folders"
+    },
+    {
+      "id": "video-use",
+      "repo": "https://github.com/browser-use/video-use",
+      "commit": "43cfc566833548093455c9d4a46bd69913b7e552",
+      "destination": "video-use",
+      "skillRoot": ".",
+      "count": 2,
+      "mode": "checkout",
+      "destinationRoot": ".codex/skills",
+      "runtime": "uv sync --frozen (from the checkout)"
+    },
+    {
+      "id": "video-agent-skills",
+      "repo": "https://github.com/Melvynx/video-agent-skills",
+      "commit": "f4542923f7f796a1fa0e544cbfc1109d5eec87d8",
+      "destination": "melvynx-video-agent-skills",
+      "skillRoot": "skills",
+      "count": 13,
+      "mode": "skill-folders"
+    }
+  ],
+  "software": [
+    {
+      "id": "natron",
+      "name": "Natron",
+      "repo": "https://github.com/NatronGitHub/Natron",
+      "version": "2.5.0",
+      "path": "~/dev-tools/media-editors/natron-2.5.0",
+      "artifact": "https://github.com/NatronGitHub/Natron/releases/download/v2.5.0/Natron-2.5.0-Windows-x86_64.zip",
+      "sha256": "caed0b649ff2515b963f0b4fc009eb451a41d8ba3d6e5d4260253dd9e104c517",
+      "install": "Extract the official Windows x64 portable archive to the installation directory. The SHA-256 was measured from the downloaded release asset.",
+      "priority": "production",
+      "owner": "Video Producer",
+      "technicalOwner": "Media Pipeline Engineer",
+      "verification": "NatronRenderer loaded a synthetic PNG through a Read node and rendered a 1920x1080 RGBA PNG through a Write node. Verified source color and alpha bounds."
+    },
+    {
+      "id": "clipsai",
+      "name": "ClipsAI",
+      "repo": "https://github.com/ClipsAI/clipsai",
+      "version": "0.2.1",
+      "path": "%LOCALAPPDATA%/Philocoursa/MediaTools/ClipsAI/venv/Scripts/python.exe",
+      "lock": "setup/requirements-clipsai-windows.txt",
+      "priority": "production",
+      "owner": "Media Pipeline Engineer",
+      "verification": "Windows CPU imports, dependency checks, synthetic topic segmentation and WAV metadata passed. Real podcast segmentation and speaker-aware reframing are untested. Reframing requires access to the gated pyannote model."
+    },
+    {
+      "id": "scenedetect",
+      "name": "PySceneDetect",
+      "repo": "https://github.com/Breakthrough/PySceneDetect",
+      "version": "0.7.3",
+      "path": "%LOCALAPPDATA%/Philocoursa/MediaTools/scenedetect-py313/Scripts/python.exe",
+      "lock": "setup/requirements-scenedetect-windows.txt",
+      "priority": "production",
+      "owner": "Media Pipeline Engineer",
+      "verification": "CLI CSV and Python API identified the exact synthetic hard cut at 00:02.000."
+    },
+    {
+      "id": "obs",
+      "name": "OBS Studio",
+      "repo": "https://github.com/obsproject/obs-studio",
+      "upstream": "https://obsproject.com/download",
+      "priority": "core",
+      "owner": "Human Operator",
+      "version": "33.0.1",
+      "path": "%LOCALAPPDATA%/Philocoursa/MediaTools/obs-33.0.1/bin/64bit/obs64.exe",
+      "artifact": "https://github.com/obsproject/obs-studio/releases/download/33.0.1/OBS-Studio-33.0.1-Windows-x64.zip",
+      "sha256": "0d9436451c2d772b33428e3fdae9776f071895c335de17283176306fb72651d3",
+      "install": "Extract under MediaTools/obs-33.0.1 and launch OBS in portable mode with its bin/64bit working directory.",
+      "verification": "Executable version and valid OBS Project, LLC Authenticode signature verified. Live Replay Buffer capture requires a human rehearsal."
+    },
+    {
+      "id": "makemyclip",
+      "name": "MakeMyClip Editor",
+      "repo": "https://github.com/MakeMyClip/editor",
+      "priority": "core",
+      "owner": "Video Producer",
+      "technicalOwner": "Media Pipeline Engineer",
+      "version": "0.5.2",
+      "npm": "@makemyclip/editor@0.5.2",
+      "path": "~/dev-tools/media-editors/makemyclip",
+      "lock": "setup/npm/makemyclip",
+      "artifact": "https://registry.npmjs.org/@makemyclip/editor/-/editor-0.5.2.tgz",
+      "verification": "CLI doctor, MCP initialize/list/tools call and six-frame H.264 timeline export passed."
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg and FFprobe",
+      "repo": "https://github.com/FFmpeg/FFmpeg",
+      "upstream": "https://ffmpeg.org/download.html",
+      "windowsBuild": "https://www.gyan.dev/ffmpeg/builds/",
+      "priority": "core",
+      "owner": "Media Pipeline Engineer",
+      "version": "9.0.2",
+      "path": "%LOCALAPPDATA%/Philocoursa/MediaTools/ffmpeg-9.0.2-essentials_build/bin",
+      "artifact": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-essentials_build.zip",
+      "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+      "install": "Extract under MediaTools. Prepend its bin directory to PATH in the media shell for these workflows.",
+      "verification": "Encoded H.264/AAC synthetic video and confirmed streams with FFprobe."
+    },
+    {
+      "id": "faster-whisper",
+      "name": "faster-whisper",
+      "repo": "https://github.com/SYSTRAN/faster-whisper",
+      "priority": "core",
+      "owner": "Media Pipeline Engineer",
+      "version": "1.2.1",
+      "path": "%LOCALAPPDATA%/Philocoursa/MediaTools/speech-py313/Scripts/python.exe",
+      "lock": "setup/requirements-speech-windows.txt",
+      "testModel": "https://huggingface.co/Systran/faster-whisper-tiny.en/tree/0d3d19a32d3338f10357c0889762bd8d64bbdeba",
+      "verification": "CPU int8 transcription produced 18 words with timings on synthetic speech."
+    },
+    {
+      "id": "whisperx",
+      "name": "WhisperX",
+      "repo": "https://github.com/m-bain/whisperX",
+      "priority": "core",
+      "owner": "Media Pipeline Engineer",
+      "version": "3.8.6",
+      "path": "%LOCALAPPDATA%/Philocoursa/MediaTools/speech-py313/Scripts/python.exe",
+      "lock": "setup/requirements-speech-windows.txt",
+      "verification": "CPU transcription and English word alignment passed on synthetic speech using tiny.en and Torchaudio WAV2VEC2_ASR_BASE_960H. Shared-library audio decoding and authenticated speaker diarization are unverified."
+    },
+    {
+      "id": "weftcut",
+      "name": "WeftCut",
+      "repo": "https://github.com/WeftCut/WeftCut",
+      "priority": "alternative",
+      "owner": "Video Producer",
+      "version": "0.8.1",
+      "path": "~/dev-tools/media-editors/weftcut-0.8.1/WeftCut.exe",
+      "artifact": "https://github.com/WeftCut/WeftCut/releases/download/v0.8.1/WeftCut-win-x64.exe",
+      "sha256": "dfc23f515f6ec9a4bb23ab78080dd942b79036015efc0a958b6af5351e81bf66",
+      "install": "Run NSIS installer. For a silent custom-directory install, use /S and then /D=<absolute directory> last.",
+      "verification": "Installed version and main welcome window verified. Media import and export are unverified."
+    },
+    {
+      "id": "concat",
+      "name": "Concat",
+      "repo": "https://github.com/jub0t/Concat",
+      "priority": "alternative",
+      "owner": "Video Producer",
+      "version": "0.2.11",
+      "path": "%LOCALAPPDATA%/Programs/Concat/concat.exe",
+      "artifact": "https://github.com/jub0t/Concat/releases/download/v0.2.11/Concat-0.2.11-windows-x86_64.msi",
+      "sha256": "805503a44c89f4d5f45eba36c71cfdc2e09afd1782367ccfbb98b3694a130301",
+      "install": "Run the MSI or use msiexec /i <msi> ALLUSERS=2 MSIINSTALLPERUSER=1 /qn /norestart.",
+      "verification": "Installed version, welcome window and New Project dialog verified. Project creation and media import are unverified."
+    },
+    {
+      "id": "diffusionstudio",
+      "name": "Diffusion Studio Editor",
+      "repo": "https://github.com/diffusionstudio/editor",
+      "priority": "alternative",
+      "owner": "Video Producer",
+      "version": "0.216.0",
+      "path": "%LOCALAPPDATA%/DiffusionStudio/app-0.216.0/Diffusion Studio.exe",
+      "artifact": "https://github.com/diffusionstudio/editor/releases/download/v0.216.0/Diffusion-Studio-x64-Setup.exe",
+      "sha256": "ecbb0be4c52001370034b558168e7cef9255364e8874a65b6320622551cf7261",
+      "install": "Run the per-user Squirrel setup executable. The installer supports /S.",
+      "verification": "Installed executable version and responding main window verified."
+    },
+    {
+      "id": "remotion",
+      "name": "Remotion runtime",
+      "repo": "https://github.com/remotion-dev/remotion",
+      "priority": "production",
+      "owner": "Video Producer",
+      "version": "4.0.545",
+      "path": "~/dev-tools/media-editors/remotion",
+      "lock": "setup/npm/remotion",
+      "npm": [
+        "remotion@4.0.545",
+        "@remotion/cli@4.0.545",
+        "react@19.3.1",
+        "react-dom@19.3.1"
+      ],
+      "verification": "Verified package alignment and six-frame H.264 renders with the bundled browser and system Chrome."
+    },
+    {
+      "id": "hyperframes",
+      "name": "HyperFrames",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "priority": "production",
+      "owner": "Video Producer",
+      "version": "0.9.70",
+      "path": "~/dev-tools/media-editors/hyperframes",
+      "lock": "setup/npm/hyperframes",
+      "npm": "hyperframes@0.9.70",
+      "artifact": "https://registry.npmjs.org/hyperframes/-/hyperframes-0.9.70.tgz",
+      "verification": "Fixture lint and strict six-frame H.264 render passed."
+    },
+    {
+      "id": "whisper-cpp",
+      "name": "whisper.cpp",
+      "repo": "https://github.com/ggml-org/whisper.cpp",
+      "priority": "on-demand",
+      "owner": "Media Pipeline Engineer",
+      "when": "A selected editor needs native transcript editing.",
+      "verification": "Available as a documented on-demand backend. MakeMyClip base CLI and MCP passed without it."
+    },
+    {
+      "id": "auto-editor",
+      "name": "Auto-Editor",
+      "repo": "https://github.com/WyattBlue/auto-editor",
+      "priority": "on-demand",
+      "owner": "Media Pipeline Engineer",
+      "when": "An approved edit needs automated silence or dead-space removal.",
+      "verification": "On-demand entry. The verified baseline uses FFmpeg and the selected timeline editor."
+    },
+    {
+      "id": "obs-websocket",
+      "name": "OBS WebSocket",
+      "repo": "https://github.com/obsproject/obs-websocket",
+      "priority": "on-demand",
+      "owner": "Human Operator",
+      "when": "A separately authorized recording-control workflow needs it.",
+      "version": "bundled with OBS 33.0.1",
+      "verification": "Bundled DLL verified. The server and credentials require an authorized operator setup."
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "repo": "https://github.com/Comfy-Org/ComfyUI",
+      "priority": "existing-creative",
+      "owner": "Graphic Designer",
+      "version": "0.45.0",
+      "path": "~/ComfyUI",
+      "commit": "0263e48",
+      "verification": "Existing Windows install previously returned a valid PNG from a local workflow; model generation requires a checkpoint."
+    },
+    {
+      "id": "imagemagick",
+      "name": "ImageMagick",
+      "repo": "https://github.com/ImageMagick/ImageMagick",
+      "upstream": "https://imagemagick.org/download/",
+      "priority": "existing-creative",
+      "owner": "Graphic Designer",
+      "version": "7.1.2-13",
+      "verification": "Previously verified PNG resize and WebP conversion."
+    },
+    {
+      "id": "resvg",
+      "name": "resvg",
+      "repo": "https://github.com/linebender/resvg",
+      "artifact": "https://github.com/linebender/resvg/releases/tag/v0.50.0",
+      "priority": "existing-creative",
+      "owner": "Graphic Designer",
+      "version": "0.50.0",
+      "verification": "Previously verified SVG-to-PNG rendering."
+    },
+    {
+      "id": "sharp",
+      "name": "sharp",
+      "repo": "https://github.com/lovell/sharp",
+      "priority": "existing-creative",
+      "owner": "Graphic Designer",
+      "version": "0.35.5",
+      "npm": "sharp@0.35.5",
+      "verification": "Previously verified from Node.js with a PNG resize."
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "repo": "https://gitlab.gnome.org/GNOME/gimp",
+      "upstream": "https://www.gimp.org/downloads/",
+      "priority": "existing-creative",
+      "owner": "Graphic Designer",
+      "version": "3.2.8",
+      "verification": "Previously verified native PNG export from the Python console."
+    },
+    {
+      "id": "photogimp",
+      "name": "PhotoGIMP",
+      "repo": "https://github.com/Diolinux/PhotoGIMP",
+      "artifact": "https://github.com/Diolinux/PhotoGIMP/releases/tag/3.1",
+      "priority": "existing-creative",
+      "owner": "Graphic Designer",
+      "version": "3.1",
+      "verification": "Previously verified PhotoGIMP files installed in the GIMP profile."
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "repo": "https://github.com/inkscape/inkscape",
+      "upstream": "https://inkscape.org/release/inkscape-1.4.4/",
+      "priority": "existing-creative",
+      "owner": "Graphic Designer",
+      "version": "1.4.4",
+      "verification": "Previously verified CLI SVG-to-PNG export."
+    }
+  ],
+  "integrations": [
+    {
+      "id": "youtube-data-api",
+      "documentation": "https://developers.google.com/youtube/v3/docs/videos/insert",
+      "owner": "Social & Community Manager",
+      "technicalOwner": "Media Pipeline Engineer",
+      "status": "requires independently approved account and upload authorization"
+    },
+    {
+      "id": "krea-mcp",
+      "documentation": "https://github.com/krea-ai/skills#prerequisites",
+      "endpoint": "https://api.krea.ai/mcp",
+      "status": "user authentication required"
+    },
+    {
+      "id": "scrapecreators",
+      "documentation": "https://github.com/ScrapeCreators/social-media-research-skills#setup",
+      "status": "requires an authorized provider key"
+    },
+    {
+      "id": "elevenlabs",
+      "documentation": "https://github.com/browser-use/video-use#manual-install",
+      "status": "optional service for video-use transcription; requires account and authorization"
+    }
+  ],
+  "hostPrerequisites": [
+    {
+      "tool": "Node.js",
+      "version": "24.18.0 verified; use Node 20+ for the workboard",
+      "url": "https://nodejs.org/en/download"
+    },
+    {
+      "tool": "Git",
+      "url": "https://git-scm.com/install/windows"
+    },
+    {
+      "tool": "Python",
+      "version": "3.13.9 x64 speech environment",
+      "url": "https://www.python.org/downloads/windows/"
+    },
+    {
+      "tool": "uv",
+      "url": "https://docs.astral.sh/uv/getting-started/installation/"
+    },
+    {
+      "tool": "Chrome/Chromium",
+      "url": "https://www.google.com/chrome/"
+    }
+  ]
+}

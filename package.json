@@ -1,0 +1,20 @@
+{
+  "name": "app-marketing-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Project-local app marketing operations, roles and workboard",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "status": "node tools/marketing.mjs status",
+    "help": "node tools/marketing.mjs help",
+    "validate": "node tools/validate.mjs",
+    "sync": "node tools/sync-agents.mjs && node tools/sync-skills.mjs",
+    "sync:agents": "node tools/sync-agents.mjs",
+    "sync:skills": "node tools/sync-skills.mjs",
+    "test": "node --test",
+    "report": "node tools/marketing.mjs report:weekly"
+  }
+}

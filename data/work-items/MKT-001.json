@@ -1,0 +1,16 @@
+{
+  "id": "MKT-001",
+  "campaign": "first-value-demo",
+  "owner": "product-marketer",
+  "kind": "research",
+  "title": "Verify audience, demo route and product claims",
+  "status": "backlog",
+  "dependsOn": [],
+  "artifacts": [],
+  "approval": null,
+  "publication": null,
+  "metrics": [],
+  "notes": [],
+  "createdAt": "2026-11-18T10:26:48.896Z",
+  "updatedAt": "2026-11-18T10:26:48.896Z"
+}
