@@ -53,7 +53,13 @@ For each output, save the artifact under its campaign or research folder. Link i
 
 Use Project `design-short-form-videos` for first lines, on-screen copy and spoken replay joins tied to the visible evidence.
 
+For a spoken join, read the opening alone and then read the ending into the opening. Preserve the standalone premise and the complete first-play answer.
+
+Use the replay construction reference in Project `design-short-form-videos` to hand off the exact START, END and joined text with its spoken intent. Check the source meaning and leave recorded delivery for review on the current audio.
+
 Use the mapped Vyral skills for draft hooks, scripts, carousels and captions. Keep the promised payoff and factual qualifiers tied to the approved source material.
+
+For a TikTok brief, use Project `tiktok-content-research` to carry the documented search intent or For You premise into the opening and caption. Tie the promise to the actual proof beat.
 
 Use Project `short-form-clip-research` to evaluate hooks, titles and payoff from the cut notes. Check that each draft preserves the source's qualifiers and the edit can deliver its promise.
 

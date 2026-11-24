@@ -50,6 +50,8 @@ For each output, save the artifact under its campaign or research folder. Link i
 
 Use the mapped Vyral platform skill for TikTok, Reels or Shorts packaging. Verify current channel rules before proposing a test or handing off a publishing package.
 
+For TikTok, use Project `tiktok-content-research` to gather authorized Creator Search Insights, Studio metrics and anonymized comment themes for Content Strategy and Growth Ops.
+
 Before starting, consult the [role-to-skill map](../skill-map.md) and use this role's row to select the skills that fit the assigned deliverable. Use Project `social-post` for the channel package. Use Social `platform-specs-and-validation` and the map’s channel entry for format checks, or `community-management` and `engagement-routine` for reply triage.
 
 Read the selected `SKILL.md` from the source named in the map. If a skill or its required integration is unavailable, continue the local work you can complete and record the dependency for the handoff.

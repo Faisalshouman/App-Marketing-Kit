@@ -1,6 +1,6 @@
 # Reproduce the Windows media setup
 
-Start here after extracting the kit. The [media requirements manifest](../media-requirements.json) records source repositories, exact skill revisions, release checksums, install locations, lockfiles and verification results. The [role-to-skill map](../workforce/skill-map.md) routes work to the installed copies. Eleven project skills and the 13 Codex and Claude role adapters are part of the kit.
+Start here after cloning the kit. The [media requirements manifest](../media-requirements.json) records source repositories, exact skill revisions, release checksums, install locations, lockfiles and verification results. The [role-to-skill map](../workforce/skill-map.md) routes work to the installed copies. Thirteen project skills and the 13 Codex and Claude role adapters are part of the kit.
 
 ## 1. Restore the workforce and skill packs
 

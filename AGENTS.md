@@ -11,3 +11,5 @@ Run npm run validate after changing roles and skills and npm test after changing
 ## Creator clipping
 
 Use workforce/skill-map.md and playbooks/creator-clipping.md. Keep creator channels independent of product campaigns. The human operator selects and supplies permissioned footage. Video Producer owns the creative edit, Media Pipeline Engineer maintains technical tooling, and Social acts only after the owner's specific approval. Use the appropriate channel identity.
+
+Apply Project `thumbnail-quality` to every thumbnail and selectable cover. Grade the exact candidate and attach the supporting evidence before routing a READY candidate for release review.

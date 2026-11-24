@@ -31,6 +31,7 @@ For a gaming upload that answers a specific player question, use the [gaming You
 ## Produce and review
 
 - Use [creator-clip-edit](../skills/creator-clip-edit/SKILL.md) for the creative edit. Confirm game action or podcast speaker context survives the edit. Verify the actual rendered video, readable mobile captions, correct names and quotations, safe-area framing, dialogue levels, rights-required credits and target output format.
+- For intentional replays, use the [construction guide](../skills/design-short-form-videos/references/replay-construction.md) to preserve the event's sequence or speaker's meaning. Record what was inspected on the [exact current cut](../skills/design-short-form-videos/references/review.md), including any unknowns.
 - Use [media-pipeline-automation](../skills/media-pipeline-automation/SKILL.md) only for technical work and rehearsals. Before a future live run, rehearse one short operator-supplied, permitted OBS clip and one short permitted podcast recording. Verify source preservation, completed-file intake, output, bounded storage and recovery from failure. Record missing samples or tooling as blockers.
 
 ## Release or hold

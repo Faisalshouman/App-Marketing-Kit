@@ -51,6 +51,8 @@ For each output, save the artifact under its campaign or research folder. Link i
 
 Use Project `design-short-form-videos` to review vertical cuts for opening legibility, caption contrast, safe areas and replay continuity.
 
+Check the final cut once for the promise and complete payoff. For replay treatments, check the boundary across two plays and identify the detail or interpretation the second play adds.
+
 Before starting, consult the [role-to-skill map](../skill-map.md) and use this role's row to select the skills that fit the assigned deliverable. Use Project `brand-review` to review the exact render. Use Social `brand-profile` for identity references and `voice-builder` for voice guidance.
 
 Read the selected `SKILL.md` from the source named in the map. If a skill or its required integration is unavailable, continue the local work you can complete and record the dependency for the handoff.

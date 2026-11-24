@@ -12,15 +12,7 @@ git clone https://github.com/Faisalshouman/App-Marketing-Kit.git
 
 Run `git fetch origin` to see new commits and `git pull --ff-only` to update an unchanged local branch. Use a separate branch for your own changes.
 
-For offline setup, extract the ZIP and open a terminal in the extracted `App-Marketing-Kit` folder. Initialize a working copy from the included bundle:
-
-```powershell
-git clone ./App-Marketing-Kit.bundle ../App-Marketing-Kit-working
-```
-
-Replace the bundle at the same path when you receive a newer ZIP, then fetch or pull from your working copy. To switch to online updates, run `git remote set-url origin https://github.com/Faisalshouman/App-Marketing-Kit.git`.
-
-Maintainers work from the Git checkout. After validating and committing changes on `main`, build the next portable ZIP with `py -3 tools/export-kit.py <path-to-App-Marketing-Kit.zip>`. The ZIP contains the committed tree and a self-contained bundle of its history. Check that any operational records or personal data are kept out of the portable repository before importing updates from a working environment.
+Maintainers validate changes before publishing them to the repository. Keep operational records and personal data in the appropriate private workspace.
 
 ## Independent creator clipping
 

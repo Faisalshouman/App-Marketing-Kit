@@ -54,6 +54,10 @@
 
 Use Project `design-short-form-videos` for the production handoff and export review. Use HyperFrames `hyperframes-cli` to validate, render and inspect compositions from the pinned runtime. Use `hyperframes-registry` for reusable components and `remotion-to-hyperframes` for a requested template migration.
 
+For reusable replay templates, verify decoded boundary frames at the delivery cadence and listen across the rendered join when audio is present. Check moving joins for continuity and still joins for the intended hold.
+
+Use the replay construction reference to distinguish stream timing and signal flags from playback or listening findings. When diagnosing a pause, compare an internal join between decoded copies with the observed single-file restart.
+
 Use NatronRenderer for repeatable renders from approved Natron projects. Verify Write-node output, frame range, resolution and alpha before handing off the rendered shot.
 
 Maintain the isolated ClipsAI and PySceneDetect environments documented in the media setup guide. Hand the Video Producer transcript-based clip candidates, scene timestamp CSVs and real test evidence. Use the official Remotion documentation and render skills for reusable template QA.

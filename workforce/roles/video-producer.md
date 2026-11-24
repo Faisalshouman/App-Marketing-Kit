@@ -52,6 +52,10 @@ For each output, save the artifact under its campaign or research folder. Link i
 
 Use Project `design-short-form-videos` for timed vertical beats, the opening and payoff, and rough-cut review. Use HyperFrames `hyperframes` and `hyperframes-cli` for HTML-based motion and local rendering. Choose a specialized HyperFrames skill from the map when the edit needs one.
 
+For intentional loops, deliver a complete first-play payoff, document the second-view benefit, and inspect the exact export across two consecutive plays. Use the skill's clean-ending option when it gives the story a clearer finish.
+
+Use the replay construction and review references to check the intended layers. Record the current asset version, frame or time scope, observed results and outstanding checks in the normal video handoff.
+
 Use Project `short-form-clip-research` to compare candidate cuts and check hook, context and payoff within supplied footage. Use Project `creator-clip-edit` for the actual edit and render.
 
 Use Natron for keying, roto and shot cleanup when footage needs a separate composite. Return the rendered shot to the approved edit and check the frame range, resolution and alpha handling.

@@ -55,6 +55,10 @@ Use Vyral platform playbooks to propose hypotheses. Use first-party metrics and 
 
 Use Project `short-form-clip-research` for published Shorts diagnosis and small edit experiments. Compare like-aged Shorts and use first-party engagement measures when available.
 
+Use Project `tiktok-content-research` for TikTok experiments. Record the metric and post-age window, and interpret Search and For You data by their actual traffic source when available.
+
+Use the hook and loop evidence notes in Project `design-short-form-videos` when comparing openings or endings. Define the changed variable and the first-play comprehension check. Public Shorts views and engaged views alone cannot quantify replays.
+
 Before starting, consult the [role-to-skill map](../skill-map.md) and use this role's row to select the skills that fit the assigned deliverable. Use Project `growth-report` for scorecards. Use Marketing `analytics`, `attribution` and `conversion-tracking` for funnel measurement, or `ab-testing` for an experiment.
 
 Read the selected `SKILL.md` from the source named in the map. If a skill or its required integration is unavailable, continue the local work you can complete and record the dependency for the handoff.

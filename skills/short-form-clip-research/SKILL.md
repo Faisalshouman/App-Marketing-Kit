@@ -5,6 +5,8 @@ description: Research YouTube Shorts ideas and rank clip candidates from supplie
 
 # Short-form clip research
 
+For TikTok content gaps, creator research or performance, use Project `tiktok-content-research` and its platform-specific measures.
+
 Use public pages and material the user supplies or can access for free. Work with plain text, a table, and manual playback. The workflow needs zero purchases, subscriptions, trials, paid assets, API keys, extensions, or specific software. When playback or analytics are unavailable, use the relevant fallback below and carry the evidence gap into the output.
 
 For independent creator channels, follow the creator-clipping playbook. Public examples can inform ideas and comparisons. For an actual cut, work within footage and moments the human selected and supplied. Use the authorized footage only after reuse is cleared for the intended edit. Keep unresolved footage as a research reference and route rights questions to Partnerships. Release follows the workspace approval policy.

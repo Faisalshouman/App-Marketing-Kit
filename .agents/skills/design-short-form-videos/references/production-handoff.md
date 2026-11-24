@@ -2,6 +2,8 @@
 
 Describe the exact first frame separately from what happens during the opening beat. Make working timecodes relative to the finished cut. Mark source timecodes separately. Keep unknown source positions as null or use a distinct search cue. For any quote or time-sensitive claim, carry over the verified source and the premise's limits.
 
+For a hook-and-loop handoff, record the viewer's opening question or expectation, the beat that resolves it, and the ending treatment. For a replay join, record the second-view benefit and the final-to-first picture, sound and caption states with timeline positions. For a spoken bridge, include the exact START, END and END + START lines. For a clean ending, record the final hold, spoken line or CTA. Name the current script, storyboard or media version and keep pending review checks with the handoff. Use [Replay construction](replay-construction.md) for boundary choices and [Review](review.md) for evidence on the actual export.
+
 ## Pick the picture treatment
 
 - **Source-first clip.** Keep the visible action, speaker, or relevant screen region in frame. Protect setup lines and reaction shots that supply essential meaning. Prefer an accurate cut from existing footage when it already contains the payoff.

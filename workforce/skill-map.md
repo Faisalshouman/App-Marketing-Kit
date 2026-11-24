@@ -70,7 +70,13 @@ Read these from `~/.agents/skills/vyral-content-skills/`. Start from the approve
 
 Use Project `design-short-form-videos` from `skills/design-short-form-videos/` once the idea or source clip has been verified. Use Project `short-form-clip-research` when proof, candidate timestamps or published results still need investigation. Read the upstream HyperFrames skills from `~/.agents/skills/heygen-hyperframes-skills/`.
 
+Use the [hook and loop guide](../skills/design-short-form-videos/references/hooks-and-loops.md) for short-form openings and endings. Content Strategist sets the viewer promise and payoff. Copywriter drafts the first line, prediction and spoken join. Graphic Designer makes the clue legible. Video Producer owns the timed edit and replay decision. Media Pipeline Engineer checks frame cadence and audio continuity when tooling is involved. Brand Lead reviews comprehension and continuity. Social confirms the intended placement, and Growth Ops uses the [evidence notes](../skills/design-short-form-videos/references/hook-loop-evidence.md) to evaluate the variants.
+
+Use [Replay construction](../skills/design-short-form-videos/references/replay-construction.md) for spoken, motion and audio joins. Video Producer leads [review by stage and artifact version](../skills/design-short-form-videos/references/review.md). Copywriter reviews the written seam, Media Pipeline Engineer supplies diagnostics from the current export, Brand Lead reviews the actual cut, Social records destination playback when available, and Growth Ops reports measured audience results. The [loop pack audit](../docs/research/video-loop-pack-audit.md) records source checks and routes the retained catalogs, examples and tooling.
+
 For YouTube packaging, Graphic Designer and Marketing Copywriter use the [thumbnail review reference](../skills/design-short-form-videos/references/youtube-thumbnail-review.md) for the image and title. Brand Lead checks the rendered package against its promised payoff and intended surfaces. Growth Ops uses the reference for eligible tests and metrics interpretation.
+
+For every thumbnail and selectable cover, use Project [`thumbnail-quality`](../skills/thumbnail-quality/SKILL.md). Content Strategist and Marketing Copywriter define the promise and title. Graphic Designer owns the candidates and scorecards. Video Producer supplies the verified payoff and frame timecodes. Brand Lead verifies the scored candidate and preview. Social & Community Manager checks the exact READY version before routing it for founder approval. Growth Ops owns test interpretation and rubric calibration.
 
 For gaming walkthroughs and question-led clips, Content Strategist, Marketing Copywriter, Video Producer, Partnerships and Growth Ops use the [gaming YouTube guide workflow](../playbooks/gaming-youtube-guides.md) for demand, gameplay proof, rights and measurement.
 
@@ -109,7 +115,8 @@ Use the [setup manifest](../media-requirements.json) for the upstream release, i
 ## Channel skills for Social & Community
 
 - **LinkedIn** uses Social `linkedin-growth`, `linkedin-company-pages` and `linkedin-post-writer` for adaptation. The Copywriter owns the original copy.
-- **Instagram and TikTok** use Social `instagram-growth`, `instagram-seo`, `instagram-reels-publishing`, `tiktok-growth` and `tiktok-video-publishing` for channel requirements and approved execution.
+- **Instagram** uses Social `instagram-growth`, `instagram-seo` and `instagram-reels-publishing` for channel requirements and approved execution.
+- **TikTok** uses Project [`tiktok-content-research`](../skills/tiktok-content-research/SKILL.md) for topic evidence and evaluation. Content Strategist owns the shortlist, Social & Community Manager gathers authorized channel observations, Marketing Copywriter drafts the evidence-backed opening and caption, Video Producer carries the proof into the edit, and Growth Ops reviews Search and For You results. Use Social `tiktok-growth` for channel guidance and `tiktok-video-publishing` for approved execution.
 - **YouTube** uses Social `youtube-shorts`, `youtube-long-form` and `youtube-publishing-and-metadata` for packaging and approved execution. Video Producer owns the edit.
 - **Other channels** use Social `facebook-strategy`, `facebook-groups`, `reddit-marketing`, `threads-growth`, `x-growth` or `pinterest-growth` when the campaign names that channel.
 

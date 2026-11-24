@@ -51,9 +51,13 @@ For each output, save the artifact under its campaign or research folder. Link i
 
 Use Project `design-short-form-videos` to turn a verified idea or selected excerpt into a brief with an opening cue, visible payoff and optional replay join.
 
+Write down the question or expectation the hook creates and the exact beat that resolves it. If proposing a replay, state what the viewer gains from seeing the opening again.
+
 Use Vyral `viral-short-form-ideas` to propose angles and content pillars. Ground the shortlist in the campaign or creator channel's audience evidence.
 
 Use Project `short-form-clip-research` for Shorts breakout research and ranked cut notes within the human's selected footage. Send the evidence, timestamp status and clearance notes with the shortlist.
+
+Use Project `tiktok-content-research` for TikTok topic research. Hand off the exact viewer question, dated demand evidence, observed coverage gap and a feasible proof beat.
 
 Use ClipsAI transcript candidates to shortlist coherent excerpts from authorized podcasts and interviews. Add the context needed to make each excerpt stand alone and pass the shortlist to Video Production.
 
