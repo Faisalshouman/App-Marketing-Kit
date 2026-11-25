@@ -14,6 +14,8 @@ Run `git fetch origin` to see new commits and `git pull --ff-only` to update an 
 
 Maintainers validate changes before publishing them to the repository. Keep operational records and personal data in the appropriate private workspace.
 
+For device migration, follow the [Linux and cross-device setup](docs/linux-setup.md).
+
 ## Independent creator clipping
 
 Use the [media setup guide](docs/media-setup.md) and [pinned requirements](media-requirements.json) to install the media toolchain and skills. The [skill map](workforce/skill-map.md), [creator playbook](playbooks/creator-clipping.md) and [clip brief](templates/creator-clip-brief.md) cover gaming, livestream and podcast footage. The operator supplies selected, permissioned footage. The Video Producer owns the creative edit, the Media Pipeline Engineer owns the tooling, and Social handles only separately approved publishing. Use the appropriate channel identity and measure creator clips independently of any app campaign.
