@@ -327,17 +327,6 @@
       "verification": "Bundled DLL verified. The server and credentials require an authorized operator setup."
     },
     {
-      "id": "comfyui",
-      "name": "ComfyUI",
-      "repo": "https://github.com/Comfy-Org/ComfyUI",
-      "priority": "existing-creative",
-      "owner": "Graphic Designer",
-      "version": "0.45.0",
-      "path": "~/ComfyUI",
-      "commit": "0263e48",
-      "verification": "Existing Windows install previously returned a valid PNG from a local workflow; model generation requires a checkpoint."
-    },
-    {
       "id": "imagemagick",
       "name": "ImageMagick",
       "repo": "https://github.com/ImageMagick/ImageMagick",

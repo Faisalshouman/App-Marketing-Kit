@@ -82,7 +82,7 @@ foreach ($editor in 'makemyclip','remotion','hyperframes') {
 
 The MakeMyClip CLI and stdio MCP use the installed editor package. Configure an MCP connection separately if the intended host needs it and the owner approves. Remotion and HyperFrames may fetch a compatible browser on first use. The nine upstream HyperFrames skills are pinned to the same release as the CLI. The kit also includes Project `design-short-form-videos` and its storyboard, production handoff and review references. The manifest lists the separate Windows desktop installers for WeftCut, Concat and Diffusion Studio, with their hashes and intended user install locations.
 
-For the static graphics toolchain, the manifest includes ImageMagick, resvg, sharp, Inkscape, GIMP, PhotoGIMP and ComfyUI. Use the linked upstream releases and path or npm pin for each. ComfyUI additionally needs an appropriate model for generation. Provider logins, private media, proprietary models and local application state are supplied on each recipient's machine.
+For the static graphics toolchain, the manifest includes ImageMagick, resvg, sharp, Inkscape, GIMP and PhotoGIMP. Use the linked upstream releases and path or npm pin for each. Provider logins, private media, proprietary models and local application state are supplied on each recipient's machine.
 
 ## 5. Verify with the intended footage
 
